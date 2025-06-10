@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
+import { axi } from './api/useAxios'
 
 interface Client {
   id: number;
@@ -8,35 +9,38 @@ interface Client {
 }
 
 function App() {
- 
-  // Estado tipado como un array de Client
-  const [clients, setClients] = useState<Client[]>([]);
+  const [client, setClient] = useState<Client | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
-  // Equivalente a componentDidMount
   useEffect(() => {
-    const fetchClients = async () => {
+    const fetchClient = async () => {
       try {
-        const response = await fetch('/clients');
-        const data: Client[] = await response.json(); // Tipamos la respuesta
-        setClients(data);
-      } catch (error) {
-        console.error('Error fetching clients:', error);
+        const response = await axi.get('/client/1'); // Usando ID 1 como ejemplo
+        setClient(response.data);
+      } catch (err) {
+        setError('Error al cargar el cliente');
+        console.error('Error fetching client:', err);
+      } finally {
+        setLoading(false);
       }
     };
 
-     fetchClients();
-  }, []); // El array vacío asegura que se ejecute solo al montar
+    fetchClient();
+  }, []);
+
+  if (loading) return <div>Cargando...</div>;
+  if (error) return <div>{error}</div>;
+  if (!client) return <div>No se encontró el cliente</div>;
 
   return (
-      <div className="App">
+    <div className="App">
       <header className="App-header">
         <div className="App-intro">
-          <h2>Clients</h2>
-          {clients.map(client => (
-            <div key={client.id}>
-              {client.name} ({client.email})
-            </div>
-          ))}
+          <h2>Client</h2>
+          <div>
+            {client.name} ({client.email})
+          </div>
         </div>
       </header>
     </div>
