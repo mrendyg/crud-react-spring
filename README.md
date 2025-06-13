@@ -1,3 +1,1 @@
-<h1 style={{
-  disply: 'flex'
-}}>Crud React Spring</h1>
+<h1>Crud React Spring</h1>
