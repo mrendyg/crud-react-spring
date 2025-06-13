@@ -1,3 +1,3 @@
 <h1 style={{
-  disply: "flex"
+  disply: 'flex'
 }}>Crud React Spring</h1>
