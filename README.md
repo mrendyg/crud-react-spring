@@ -12,7 +12,7 @@
 
 <p>Para correr el programa debes tener instalado:</p>
 <p><img align="center" src="https://github.com/user-attachments/assets/8ab4bad6-56f2-417e-bc83-b9617f1c8da2"/> - Nodejs</p>
-<p><img align="center" src="https://github.com/user-attachments/assets/a8a54b41-44f1-4141-b28e-98c95e4b23d1"/> - PostgreSQL</p>
+<p><img align="center" src="https://github.com/user-attachments/assets/a8a54b41-44f1-4141-b28e-98c95e4b23d1"/> - PostgreSQL    *u otra base de datos, pero debes actualizar el pom.xml*</p> 
 
 <h2>Intalación</h2>
 <p>Recuerda configurar la base de datos en el archivo aplicattion.propieties en la ruta: crud-react-spring\crud_springboot\src\main\resources\application.properties </p>
