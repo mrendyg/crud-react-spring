@@ -14,5 +14,12 @@
 <p><img align="center" src="https://github.com/user-attachments/assets/8ab4bad6-56f2-417e-bc83-b9617f1c8da2"/> - Nodejs</p>
 <p><img align="center" src="https://github.com/user-attachments/assets/a8a54b41-44f1-4141-b28e-98c95e4b23d1"/> - PostgreSQL</p>
 
-<p>tambien recuerda configurar la base de datos en el archivo aplicattion.propieties en la ruta: crud-react-spring\crud_springboot\src\main\resources\application.properties </p>
+<h2>Intalación</h2>
+<p>Recuerda configurar la base de datos en el archivo aplicattion.propieties en la ruta: crud-react-spring\crud_springboot\src\main\resources\application.properties </p>
+
+<img align="center" src="https://github.com/user-attachments/assets/b1ed1127-6db9-4f45-b3a7-5f3bdd3a9b2e"/>
+
+La base de Datos cuenta con una sola tabla con los atributos: id, email y name, como se ve a continuacion.
+
+<img align="center" src="https://github.com/user-attachments/assets/15d63c03-d158-4773-8a37-61b462f05f43"/>
 
