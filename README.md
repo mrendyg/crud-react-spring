@@ -18,7 +18,7 @@
 <p>Recuerda configurar la base de datos en el archivo aplicattion.propieties en la ruta: crud-react-spring\crud_springboot\src\main\resources\application.properties </p>
 
 <img align="center" src="https://github.com/user-attachments/assets/b1ed1127-6db9-4f45-b3a7-5f3bdd3a9b2e"/>
-
+<p>Cambia los datos en url, username y pasword colocando los datos de tu Base de datos</p>
 La base de Datos cuenta con una sola tabla con los atributos: id, email y name, como se ve a continuacion.
 
 <img align="center" src="https://github.com/user-attachments/assets/15d63c03-d158-4773-8a37-61b462f05f43"/>
