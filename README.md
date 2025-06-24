@@ -3,3 +3,16 @@
 <p>Este proyecto fue creado con finalidades didacticas de una conexion backend con un frontend y su base de datos, utilizando Springboot, React y PostgreSQL. Trata sobre un listado de clientes almacenando nombre y sus correos electronicos con la capacidad de crear una nuevo cliente, mostrar en pantalla la informacion, actualizar la informacion de un cliente y borrar un cliente.</p>
 
 <img align="center" src="https://github.com/user-attachments/assets/e8cc710a-0815-46b5-8d78-6f1249b92607"/>
+
+<h2>Comenzando</h2> 
+
+<p>Para copiar el proyecto en tu maquina local solo debes ejecutar en tu terminar y digiendote a la carpera donde se desea el comando: git clone https://github.com/mrendyg/crud-react-spring</p>
+
+<h2>Pre-Requisitos</h2>
+
+<p>Para correr el programa debes tener instalado:</p>
+<p><img align="center" src="https://github.com/user-attachments/assets/8ab4bad6-56f2-417e-bc83-b9617f1c8da2"/> - Nodejs</p>
+<p><img align="center" src="https://github.com/user-attachments/assets/a8a54b41-44f1-4141-b28e-98c95e4b23d1"/> - PostgreSQL</p>
+
+<p>tambien recuerda configurar la base de datos en el archivo aplicattion.propieties en la ruta: crud-react-spring\crud_springboot\src\main\resources\application.properties </p>
+
