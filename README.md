@@ -29,3 +29,4 @@ La base de Datos cuenta con una sola tabla con los atributos: id, email y name, 
 <p>Luego ve a la ruta de crud_react y ejecuta el comando: npm i</p>
 <p>Dentro de esta carpeta ya puedes ejecutar el comando: npm run dev</p>
 <p>Una vez ejecutado puede oprimir la tecla o y dar enter para ir a la ruta en el navegador</p>
+<img align="center" src="https://github.com/user-attachments/assets/c53859e2-9833-4e5b-b910-711a71cf3b93"/>
