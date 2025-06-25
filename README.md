@@ -27,3 +27,5 @@ La base de Datos cuenta con una sola tabla con los atributos: id, email y name, 
 <p>Una vez configurarda la base de datos, puedes ejecutar el archivo principal de Springboot</p>
 
 <p>Luego ve a la ruta de crud_react y ejecuta el comando: npm i</p>
+<p>Dentro de esta carpeta ya puedes ejecutar el comando: npm run dev</p>
+<p>Una vez ejecutado puede oprimir la tecla o y dar enter para ir a la ruta en el navegador</p>
